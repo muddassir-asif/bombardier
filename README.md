@@ -12,26 +12,21 @@ will result in a executable file that can be run using:
 
 # Sample Output
 ```
-Signal 1(E->W)  Signal 2(W->E)  Signal 3(N->S)  Signal 4(S->NS)
-Red              Red             Red             Red             (Retain for 2 seconds) 
-Amber            Amber           Red             Red             (Retain for 2 seconds) 
-Green            Green           Red             Red             (Retain for 14 seconds) 
-Amber            Amber           Red             Red             (Retain for 2 seconds) 
-Red              Red             Red             Red             (Retain for 2 seconds) 
-Red              Red             Amber           Amber           (Retain for 2 seconds) 
-Red              Red             Green           Green           (Retain for 14 seconds) 
-Red              Red             Amber           Amber           (Retain for 2 seconds) 
-Red              Red             Red             Red             (Retain for 2 seconds) 
-Amber            Amber           Red             Red             (Retain for 2 seconds) 
-Green            Green           Red             Red             (Retain for 14 seconds) 
-Amber            Amber           Red             Red             (Retain for 2 seconds) 
-Red              Red             Red             Red             (Retain for 2 seconds) 
-Red              Red             Amber           Amber           (Retain for 2 seconds) 
-Red              Red             Green           Green           (Retain for 14 seconds) 
-Red              Red             Amber           Amber           (Retain for 2 seconds) 
-Red              Red             Red             Red             (Retain for 2 seconds) 
-Amber            Amber           Red             Red             (Retain for 2 seconds) 
-Green            Green           Red             Red             (Retain for 14 seconds)
+Signal (E->W) 	Signal (W->E) 	Signal (N->S) 	Signal (S->NS)
+Red 		 Red 		 Red 		 Red		 (Retain for 2 Seconds)
+Green 		 Green 		 Red 		 Red		 (Retain for 16 Seconds)
+Amber 		 Amber 		 Red 		 Red		 (Retain for 2 Seconds)
+Red 		 Red 		 Red 		 Red		 (Retain for 2 Seconds)
+Red 		 Red 		 Green 		 Green		 (Retain for 16 Seconds)
+Red 		 Red 		 Amber 		 Amber		 (Retain for 2 Seconds)
+Red 		 Red 		 Red 		 Red		 (Retain for 2 Seconds)
+Green 		 Green 		 Red 		 Red		 (Retain for 16 Seconds)
+Amber 		 Amber 		 Red 		 Red		 (Retain for 2 Seconds)
+Red 		 Red 		 Red 		 Red		 (Retain for 2 Seconds)
+Red 		 Red 		 Green 		 Green		 (Retain for 16 Seconds)
+Red 		 Red 		 Amber 		 Amber		 (Retain for 2 Seconds)
+Red 		 Red 		 Red 		 Red		 (Retain for 2 Seconds)
+Green 		 Green 		 Red 		 Red		 (Retain for 16 Seconds
 ...
 ```
 # Note:

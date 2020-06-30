@@ -49,9 +49,11 @@ const char* convertState(int signal)
 
 }
 
-void printState()
+void printState(int delayTime)
 {
-    printf("%s \t\t %s \t\t %s \t\t %s\n",convertState(signalEW),convertState(signalWE),convertState(signalNS),convertState(signalSN));
+    printf("%s \t\t %s \t\t %s \t\t %s\t\t (Retain for %d Seconds)\n",
+    convertState(signalEW),convertState(signalWE),convertState(signalNS),convertState(signalSN), delayTime);
+    delay(delayTime);
 }
 
 int main()
@@ -61,28 +63,22 @@ int main()
     {
 
         // Starting stage: All Red
-        printState();
-        delay(2);
+        printState(2);
 
         signalEW = Green; signalWE = Green; signalNS = Red; signalSN = Red;
-        printState();
-        delay(16);
+        printState(16);
 
         signalEW = Amber; signalWE = Amber; signalNS = Red; signalSN = Red;
-        printState();
-        delay(2);
+        printState(2);;
 
         signalEW = Red; signalWE = Red; signalNS = Red; signalSN = Red;
-        printState();
-        delay(2);
+        printState(2);
 
         signalEW = Red; signalWE = Red; signalNS = Green; signalSN = Green;
-        printState();
-        delay(16);
+        printState(16);
 
         signalEW = Red; signalWE = Red; signalNS = Amber; signalSN = Amber;
-        printState();
-        delay(2);
+        printState(2);
 
         signalEW = Red; signalWE = Red; signalNS = Red; signalSN = Red;
     }
